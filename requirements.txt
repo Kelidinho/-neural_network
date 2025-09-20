@@ -1,0 +1,21 @@
+# Fichero: requirements.txt
+
+# --- Core para Análisis y Cálculo Numérico ---
+numpy==2.3.3
+# Para la manipulación y análisis de datos. Indispensable para leer CSVs y preparar datos.
+pandas==2.3.2
+
+# --- Visualización de Datos ---
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# --- Entorno de Desarrollo Interactivo ---
+jupyterlab==4.4.7
+
+# --- Calidad de Código y Buenas Prácticas ---
+# Para formatear el código automáticamente y mantener un estilo consistente.
+black==25.9.0
+# Un linter extremadamente rápido para detectar errores y problemas de estilo.
+ruff==0.13.1
+# Para gestionar variables de entorno (ej. credenciales de BD) desde un fichero .env
+python-dotenv==1.1.1

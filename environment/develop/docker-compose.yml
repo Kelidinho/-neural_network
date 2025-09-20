@@ -1,0 +1,16 @@
+services:
+  mariadb_dev:
+    image: mariadb:11.2
+    container_name: bus_prediction_db_dev
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ../../storage/mariadb_data:/var/lib/mysql
