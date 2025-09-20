@@ -53,8 +53,7 @@ Para configurar el entorno de desarrollo local, siga estos pasos:
 
 1.  **Clonar el Repositorio**
     ```bash
-    git clone [URL-DEL-REPOSITORIO]
-    cd [NOMBRE-DEL-REPOSITORIO]
+    git clone git@github.com:Kelidinho/-neural_network.git
     ```
 
 2.  **Configurar el Entorno Virtual**

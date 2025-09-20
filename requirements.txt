@@ -19,3 +19,9 @@ black==25.9.0
 ruff==0.13.1
 # Para gestionar variables de entorno (ej. credenciales de BD) desde un fichero .env
 python-dotenv==1.1.1
+# --- ORM, Migraciones y Validación de Datos ---
+sqlalchemy==2.0.43
+alembic==1.16.5
+pydantic==2.11.9
+# Conector para SQLAlchemy y MariaDB/MySQL
+mysqlclient==2.2.7
