@@ -19,3 +19,5 @@ __pycache__/
 *.pyd
 
 .DS_Store
+*.parquet
+data/_tmp

@@ -3,25 +3,37 @@
 # --- Core para Análisis y Cálculo Numérico ---
 numpy==2.3.3
 # Para la manipulación y análisis de datos. Indispensable para leer CSVs y preparar datos.
-pandas==2.3.2
+pandas==2.3.3
 
 # --- Visualización de Datos ---
 matplotlib==3.10.6
 seaborn==0.13.2
 
 # --- Entorno de Desarrollo Interactivo ---
-jupyterlab==4.4.7
+jupyterlab==4.4.9
 
 # --- Calidad de Código y Buenas Prácticas ---
 # Para formatear el código automáticamente y mantener un estilo consistente.
 black==25.9.0
 # Un linter extremadamente rápido para detectar errores y problemas de estilo.
-ruff==0.13.1
+ruff==0.13.3
 # Para gestionar variables de entorno (ej. credenciales de BD) desde un fichero .env
 python-dotenv==1.1.1
 # --- ORM, Migraciones y Validación de Datos ---
 sqlalchemy==2.0.43
 alembic==1.16.5
-pydantic==2.11.9
+pydantic==2.11.10
 # Conector para SQLAlchemy y MariaDB/MySQL
 mysqlclient==2.2.7
+
+# Para realizar las peticiones HTTP.
+requests==2.32.5
+
+# Motor para que Pandas pueda leer y escribir en formato Parquet.
+pyarrow==21.0.0
+
+# Para consultar eficientemente los archivos Parquet con SQL desde el notebook.
+duckdb==1.4.0
+
+# Datos festivos
+holidays==0.81
